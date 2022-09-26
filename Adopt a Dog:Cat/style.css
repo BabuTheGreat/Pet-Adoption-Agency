@@ -1,0 +1,357 @@
+/*By Belal Abu-Thuraia 40209178*/
+header{
+    text-align: left;
+    margin-top: -34px;
+    color: antiquewhite;
+    font-size: 30px;
+    
+}
+#background{
+    background-image: linear-gradient(to left,rgb(150, 100,100),rgb(7, 70, 100));
+    opacity: 1; 
+    width: 100%;
+    position: relative;
+    min-height: 130px;
+    
+
+}
+#title{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: monospace;
+}
+#date{
+    font-size: 15px;
+    opacity: 0.7;
+    padding-bottom: 10px;
+}
+#title a, #title p{
+    text-decoration: none;
+    color: antiquewhite;
+    white-space: normal;
+    
+}
+#paws{
+    opacity: 0.5;
+    width: 10%;
+    height: 120px;
+    float: right;
+    position: absolute;
+    left: 85%;
+    bottom: 1%;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    
+}
+#myname{
+    position: absolute;
+    bottom: 0;
+}
+.privacy h2{
+    font-family: monospace;
+    font-size: 40px;
+    color: brown;
+}
+.privacy h4{
+    margin-left: 40px;
+    font-family: serif;
+}
+.menu{
+    position: relative;
+    list-style:none;
+    font-size: 25px;
+    font-family: serif;
+    border-right: 3px solid black;
+    bottom: 35px;
+    left: -2px;
+    max-width: 150px;
+    overflow: scroll;
+    margin-left: -40px;
+    font-family: serif;
+}
+.menu li{
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+}
+.menu li.active{
+    
+    background-color: black;
+    color: antiquewhite;
+}
+.menu li:hover:not(.active) {
+  background-color: darkgray;
+  color: antiquewhite;
+}
+.menu a{
+    text-decoration: none;
+    color:inherit;
+   
+}
+#footer{
+   
+    position: fixed;
+    opacity: 0.8;
+    left: 0;
+    height: 10%;
+    top: 93%;
+    width: 100%;
+    background-image: linear-gradient(45deg,rgb(150, 100,100),rgb(7, 70, 100));
+    overflow: auto;
+}
+#footer h3, #footer h5{
+    display: inline-block;
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 30px;
+   
+}
+
+
+#privacy{
+    color: antiquewhite;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: monospace;
+}
+.content{
+    position:absolute;
+    max-height: 70%;
+    top: 160px;
+    left: 250px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    height: 100%;
+    overflow: scroll;
+}
+.content-care{
+    position:absolute;
+    max-height: 70%;
+    top: 160px;
+    left: 250px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    height: 100%;
+    overflow: scroll;
+}
+.content-browse{
+    position:absolute;
+    width: 80%;
+    max-height: 70%;
+    top: 160px;
+    left: 170px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    height: 100%;
+    overflow: scroll;
+}
+
+.form{
+    position:fixed;
+    max-height: 70%;
+    width: 60%;
+    top: 160px;
+    left: 180px;
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 90%;
+    overflow: auto;
+    
+}
+.form input[type=submit], .form input[type=reset]{
+    text-decoration: none;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px;
+    
+}
+.form input[type=submit]:hover{
+    background-color: rgb(7, 70, 100);
+}
+.form input[type=reset]:hover{
+    background-color: rgb(7, 70, 100);
+}
+.form select, .form input[type=text], .form input[type=checkbox], .form input[type=radio], .form input[type=email], .form input[type=password]{
+    border: none;
+    border-radius: 30%;
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+}
+.form input[type=password]{
+    margin-bottom: 10px;
+}
+#breed, #age-drop{
+    color: black;
+    font-family: serif;
+}
+
+.form select:hover{
+    background-color: antiquewhite;
+}
+#dogbreed, #catbreed{
+    color: black;
+    font-family: serif
+}
+#comment{
+    height: 30px;
+    width: 80%;
+    text-align: justify-all;
+    color: black;
+    font-family: serif;
+    background-color: rgba(20,0,10, 0.1)
+}
+form{
+    padding 30px;
+    margin-bottom: 10%;
+    text-align: center;
+    line-height: 30px;
+    border: 10px solid rgba(30,60,90, 0.6);
+    border-top: 20px solid rgba(30,60,90, 0.6);
+    border-bottom: 20px solid rgba(30,60,90, 0.6);
+    border-left: none;
+    border-right: none;
+    overflow: scroll;
+    font-family: serif;
+    font-size: 25;
+}
+form hr{
+    width 15%;
+}
+form ul{
+    list-style-position: inside;
+    text-align: left;
+    margin-top: 50px;
+}
+
+body{
+    background-image: linear-gradient(90deg,rgba(24,224,108,0.1), rgba(0,0,0,0.5));
+
+}
+.welcome {
+    float:left;
+    max-width: 60%;
+    text-align: center;
+    margin-left: 5%;
+    font-family: serif;
+}
+.welcome h2{
+    font-size: 40px;
+    color: brown;
+}
+.welcome h3{
+    color: midnightblue;
+}
+.find h1{
+    color: brown;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#cat1{
+    position: relative;
+    height: 250px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 130px;
+    border-radius: 20%;
+}
+#dog1{
+    position: relative;
+    height: 290px;
+    width: auto;
+    margin-right: 350px;
+    border-radius: 70%;
+    margin-top: -2%;
+}
+.care{
+    max-width: 100%;
+    float: left;
+    font-family: serif;
+    line-height: 30px;
+    overflow: scroll;
+}
+.browse{
+    position: relative;
+    width: 100%;
+    font-family: serif;
+    line-height: 30px;
+    overflow: scroll;
+}
+.browse h3{
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 7%;
+}
+.browse h1{
+    margin-left: 5%;
+    font-family: monospace;
+    color: brown;
+}
+.browse a{
+    text-decoration: none;
+}
+.care h3{
+    font-style: italic;
+}
+.care ul{
+    list-style: circle;
+}
+.care p{
+    margin-left: 10px;
+    max-width: 90%;
+}
+.care h1{
+    font-family: monospace;
+    color: brown;
+}
+.care a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#availablecats img, #availabledogs img, #availablecats1 img, #availabledogs1 img{
+    border-radius: 30%;
+    
+}
+
+.browse figcaption{
+    font-family: serif;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+.browse figcaption b{
+    font-size: 25px;
+    font-family:monospace;
+}
+
+.browse #availablecats, .browse #availabledogs{
+    width: 70%;
+}
+.browse #availablecats1,.browse #availabledogs1{
+    width: 100%;
+}
+#sorry{
+    font-style: normal;
+}
+.create{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.create h1{
+    margin-bottom: 50px;
+}
+
+
+
+
+
